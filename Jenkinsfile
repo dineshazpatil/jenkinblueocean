@@ -7,7 +7,7 @@ node {
 
   stage ("stage 2") {
      echo "This is stage 2"
-
+     input message: "do you want to go ahead"
    }
 
    stage ("stage 3") {
